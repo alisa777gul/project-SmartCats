@@ -1,0 +1,144 @@
+.advertisement {
+    padding: 60px 20px;
+    background-image: 
+    url(../img/advertisement/adver-mob.jpg);
+    background-color: #0c0c0c;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .advertisement {
+        background-image:
+            url(../img/advertisement/adver-mob@2x.jpg);
+           
+    }
+}
+
+.container {
+    max-width: 320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advertisement-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 28px;
+    text-align: center;
+    max-width: 279px;
+}
+
+.advertisement-story {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-btn {
+    font-family: "Gilroy", sans-serif;
+    width: 160px;
+    height: 48px;
+    margin: 0 auto;
+    padding: 15px  44px;
+    background: transparent;
+    border: none;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: center;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .advertisement {
+        
+        padding: 80px 32px;
+        background-image: url(../img/advertisement/adver-tablet.jpg);
+        background-color: #0c0c0c;
+
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .advertisement {
+            background-image:
+                url(../img/advertisement/adver-tablet@2x.jpg);
+        }
+    }
+
+    .advertisement-title {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 0.9;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        max-width: 576px;
+    }
+
+    .advertisement-btn{
+
+    }
+
+
+}
+
+@media screen and (min-width:1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 65px;
+    }
+
+    .advertisement {
+       
+        padding: 100px 65px;
+        background-image: url(../img/advertisement/adver-desk.png);
+        background-color: #0c0c0c;
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .advertisement {
+            background-image:
+                url(../img/advertisement/adver-desk@2x.jpg);
+        }
+    }
+
+    .advertisement-title {
+        font-size: 48px;
+        line-height: 0.9;
+        max-width: 690px;
+    }
+}
