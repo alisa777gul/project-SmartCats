@@ -1,1 +1,226 @@
+/* p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.container {
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+} */
+.header-conteiner {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo-web {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  text-decoration: none;
+}
+.link-nav {
+  display: none;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 0;
+}
+.open-menu-btn {
+  padding: 0;
+  line-height: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.network {
+  display: none;
+}
 
+@media screen and (min-width: 768px) {
+  .network {
+    display: none;
+  }
+  .logo-web {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .logo-web {
+    margin-right: 203px;
+  }
+  .link-nav {
+    display: flex;
+    gap: 40px;
+  }
+  .link {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #0c0c0c;
+    text-decoration: none;
+  }
+  .link-studio {
+    position: relative;
+    color: #2e2f42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .link-studio::after {
+    content: '';
+    width: 6px;
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    height: 6px;
+    background-color: #404bbf;
+    border-radius: 50%;
+  }
+  .link-nav .link:hover {
+    color: #404bbf;
+  }
+
+  .link-nav .link:focus {
+    color: #404bbf;
+  }
+  .network {
+    display: block;
+  }
+  .network-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .network-item {
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+  }
+  .network-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .network-link:hover {
+    fill: #3350e9;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .network-link:focus {
+    fill: #3350e9;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .open-menu-btn {
+    display: none;
+  }
+}
+/* --------------mob menu-------------------- */
+.mob-menu {
+  position: fixed;
+  top: 0;
+  /* width: 100%; */
+  width: 200px;
+  height: 100%;
+  background: #0c0c0c;
+  left: 50%;
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.close-menu-btn {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 186px;
+}
+.mob-link-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.mob-link {
+  position: relative;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #fbfbfb;
+}
+.mob-link-studio::after {
+  content: '';
+  width: 6px;
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  height: 6px;
+  background-color: #404bbf;
+  border-radius: 50%;
+}
+.mob-link-studio {
+}
+.mob-network {
+}
+.mob-network-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+.mob-network-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 34px;
+  height: 34px;
+}
+.mob-network-link {
+}
+
+.mob-network-svg {
+  fill: #fbfbfb;
+}
