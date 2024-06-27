@@ -1,0 +1,162 @@
+/* Основні стилі */
+.title-catalog {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.catalog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.catalog-list-elements {
+    padding: 24px 28px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background: #3350e9;
+    box-sizing: border-box;
+    width: 100%;
+    background: #f3f3f3;
+}
+
+.image-catalog {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.name-catalog {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 8px;
+}
+
+.price-catalog {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+}
+
+.button-catalog {
+    border-radius: 16px;
+    border: none;
+    width: 160px;
+    height: 48px;
+    background: #3350e9;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fbfbfb;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/* Приховування двох останніх елементів на маленьких екранах */
+.catalog-list li:nth-last-child(-n+2) {
+    display: none;
+}
+/* Зміни для екранів від 375px */
+@media (min-width: 375px) {
+    .catalog-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;     flex-basis: calc(100% - 20px);
+        /* Ширина з урахуванням відступу */
+        min-width: 335px;
+      
+        
+    }
+
+    .image-catalog{
+        width: 279px;
+        height: 262px;
+    }
+}
+/* Показ прихованих елементів на екранах від 768px */
+@media (min-width: 768px) {
+    .catalog-list li:nth-last-child(-n+2) {
+        display: list-item;
+    }
+
+    .catalog-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 32px 16px;
+
+    }
+
+    .catalog-list-elements {
+        flex-basis: calc((100% - 16px)/2);
+        /* 50% ширина мінус половина відступу */
+            min-width: 344px;
+            min-height: 414px;
+        box-sizing: border-box;
+        padding: 24px 32px;
+    }
+
+    .button-catalog {
+        display: none;
+    }
+    .image-catalog{
+        width: 268px;
+        height: 292px;
+    }
+
+    .name-catalog{
+        font-size: 20px;
+            line-height: 1;
+            letter-spacing: -0.02em;
+            color: #0c0c0c;
+    }
+
+    .price-catalog{
+        font-weight: 400;
+            font-size: 14px;
+            line-height: 1.28571;
+            letter-spacing: -0.02em;
+            color: rgba(12, 12, 12, 0.5);
+    }
+           
+    .name-catalog{
+    white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;}
+}
+
+/* Зміни для екранів від 1280px */
+@media (min-width: 1280px) {
+    .catalog-list {
+        gap: 32px 23px;
+    }
+
+    .catalog-list-elements {
+    flex-basis: calc((100% - 46px)/3);
+
+        min-width: 368px;
+        box-sizing: border-box;
+    }
+    .image-catalog{
+        width: 304px;
+        height: 312px;
+    }
+
+}
+
