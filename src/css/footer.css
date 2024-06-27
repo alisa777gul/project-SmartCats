@@ -1,0 +1,82 @@
+.footer {
+  padding: 0 20px;
+}
+
+.footer-container {
+  border-radius: 30px;
+  padding: 40px 28px 28px 28px;
+  background-color: #0c0c0c;
+}
+
+.footer-box-logo {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  padding-bottom: 20px;
+}
+
+.footer-icon-list {
+}
+.icon {
+}
+.footer-icon {
+}
+.footer-linc {
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+.footer-imput {
+}
+.footer-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+.footer-linc-box {
+}
+.footer-list {
+}
+.footer-list-item {
+}
+.footer-list-linc {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: #fbfbfb;
+}
+.footer-addres {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+}
+.footer-policy-box {
+}
+.footer-policy-list {
+}
+.footer-polisy-item {
+}
+.footer-policy-linc {
+}
+/* @media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1280px) {
+} */
