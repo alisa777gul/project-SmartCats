@@ -2,6 +2,7 @@
     padding: 0px 20px;
     width: 375px;
     height: 1100px;
+   
 }
 
 .contact-us {
@@ -16,7 +17,6 @@
 .container-contact {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
     gap: 20px;
     border-radius: 50px;
@@ -69,6 +69,10 @@
         margin-left: 122px;
         margin-right: 122px;
     }
+
+    .image-contact {
+        border-radius: 50px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -76,10 +80,14 @@
         padding: 0px 65px;
         width: 1280px;
         height: 640px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .container-contact {
         gap: 32px;
+        margin-right: 20px;
     }
 
     .contact-us-text {
@@ -90,13 +98,19 @@
     }
 
     .image-right {
-        display: block;
-        align-items: right;
+        width: 530px;
+        display: flex;
+        justify-content: center;
+        
     }
 
     .modal-form {
         margin-left: 60px;
         margin-right: 60px;
+    }
+
+    .image-contact {
+        width: 100%;
     }
 
 
@@ -154,9 +168,16 @@
     background: #3350e9;
     color: #FBFBFB;
     margin-top: 28px;
+    cursor: pointer;
+    margin-bottom: 50px;
 }
 
 .image-right {
     margin-top: 20px;
+}
+
+.image-contact {
+    border-radius: 30px;
+    width: 100%;
     display: block;
 }
