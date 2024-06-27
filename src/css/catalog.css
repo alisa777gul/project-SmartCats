@@ -137,7 +137,8 @@
            
     .name-catalog{
     white-space: nowrap;
-overflow: hidden;}
+overflow: hidden;
+text-overflow: ellipsis;}
 }
 
 /* Зміни для екранів від 1280px */
@@ -157,9 +158,5 @@ overflow: hidden;}
         height: 312px;
     }
 
-    .name-catalog{
-        white-space: nowrap;
-        overflow: hidden;
-    }
 }
 
