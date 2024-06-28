@@ -48,7 +48,7 @@ ol {
   display: none;
 }
 .open-menu-svg {
-  /* fill: #0c0c0c; */
+  fill: #0c0c0c;
 }
 . @media screen and (min-width: 768px) {
   .network {
