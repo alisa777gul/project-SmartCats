@@ -1,0 +1,173 @@
+/* Секция Hero */
+
+.wrapper{
+    padding: 60px 20px 0px 20px;
+    @media screen and (min-width: 768px) {
+        padding: 80px 32px 0 32px;
+    }
+    @media screen and (min-width: 1280px) {
+        padding: 80px 65px 0 65px;
+    }
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 28px;
+
+    width: 100%;
+    background-color: #fff;
+
+    @media screen and (min-width: 768px) {
+        gap: 40px;
+    }
+}
+
+.hero__content {
+    width: 100%;
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+    @media screen and (min-width: 1280px) {
+        justify-content: space-between;
+    }
+}
+
+.hero h1 {
+    color: #0C0C0C;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 68px;
+        font-weight: 600;
+        line-height: 60px;
+
+        width: 557px;
+    }
+    @media screen and (min-width: 1280px) {
+        font-size: 72px;
+        line-height: 63px;
+
+        width: 600px;
+    }
+}
+
+.hero h1 span {
+    color: rgb(51, 80, 233);
+}
+
+.hero__description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: rgba(12, 12, 12, 0.7);
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    @media screen and (min-width: 1280px) {
+        font-size: 16px;
+        line-height: 20px;
+        width: 480px;
+    }
+}
+
+.hero__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 0;
+    }
+}
+
+.hero__scroll {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    position: relative;
+    order: 2;
+    margin-top: 28px;
+    border-bottom: 1px solid black;
+    transition: all 500ms ease-in-out;
+
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 0;
+    }
+}
+
+.hero__scroll:hover,
+.hero__scroll:focus{
+    color: blue;
+    border-color: blue;
+    transform: translateY(10px);
+} 
+
+.hero__people-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+    @media screen and (min-width: 768px) {
+        margin-right: 0;
+    }
+}
+
+.person1,
+.person2,
+.person3{
+    transition: all 500ms ease;
+}
+
+
+.person1:hover{
+    transform: scale(1.2);
+}
+.person2:hover{
+    transform: scale(1.2);
+}
+.person3:hover{
+    transform: scale(1.2);
+}
+
+.hero__people-images .person {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: -10px;
+    border: 2px solid #fff;
+    z-index: 1;
+}
+
+.hero-premium {
+    border-radius: 30px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.watch {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+
+
