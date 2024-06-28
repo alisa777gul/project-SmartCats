@@ -1,40 +1,36 @@
 .advertisement {
-    padding: 60px 0;
-    margin: 0 auto;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(../img/advertisement/adver-mob.jpg);
+    padding: 60px 28px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(../img/advertisement/adver-mob.jpg);
     background-color: #0c0c0c;
     border-radius: 30px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+margin-left: auto;
+    margin-right: auto;
 }
 
-.advertisement-container{
-gap: 28px;
+
+
+.container{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
     .advertisement {
-        background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
             url(../img/advertisement/adver-mob@2x.jpg);
-           
+
     }
 }
 
-.advertisement-container{
-    gap: 32px;
+.advertisement {
+   max-width: calc(100% - 56px);
 }
-
-.container {
-    max-width: 320px;
-    padding: 0 20px;
-    margin: 0 auto;
-}
-
 
 .visually-hidden {
     position: absolute;
@@ -59,20 +55,20 @@ gap: 28px;
     margin-bottom: 28px;
     text-align: left;
     max-width: 279px;
-    
 }
 
 .advertisement-story {
     color: rgba(251, 251, 251, 0.5);
+
 }
 
 
 .advertisement-btn {
     font-family: "Gilroy", sans-serif;
-    width: 160px;
+    max-width: 160px;
     height: 48px;
     margin: 0 auto;
-    padding: 15px  44px;
+    padding: 15px 44px;
     background: transparent;
     border: none;
     white-space: nowrap;
@@ -85,20 +81,32 @@ gap: 28px;
     border-radius: 16px;
 }
 
+@media screen and (min-width: 375px){
+    .advertisement{
+    max-width: calc(100% - 56px);
+    }
+
+        .advertisement-title {
+            max-width: 279px;
+            min-height: 167px;
+            
+        }
+}
+
+
 
 
 @media screen and (min-width:768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
-
+ 
     .advertisement {
-        
-        padding: 80px 0;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-         url(../img/advertisement/adver-tablet.jpg);
+
+        padding: 80px 64px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+            url(../img/advertisement/adver-tablet.jpg);
         background-color: #0c0c0c;
+
+        max-width: calc(100% - 64px);
+
 
     }
 
@@ -106,7 +114,7 @@ gap: 28px;
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
         .advertisement {
-            background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
                 url(../img/advertisement/adver-tablet@2x.jpg);
         }
     }
@@ -117,59 +125,58 @@ gap: 28px;
         line-height: 0.9;
         letter-spacing: -0.02em;
         color: #fbfbfb;
-        max-width: 576px;
+       
     }
 
-    .advertisement-btn{
-        width: 160px;
-        height: 48px;
-    }
-
+.advertisement-title{
+    min-width: 576px;
+    min-height: 185px;
+}
 
 }
 
-@media screen and (min-width:1280px) {
-    .container {
-        max-width: 1280px;
-        padding: 0 65px;
-        
-    }
 
-    .advertisement {
-        
-        padding: 100px 0;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-         url(../img/advertisement/adver-desk.png);
+
+
+@media screen and (min-width:1280px) {
+.advertisement {
+       
+      padding: 80px 80px 83px 80px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+            url(../img/advertisement/adver-desk.png);
         background-color: #0c0c0c;
+        max-width: calc(100% - 130px);
     }
 
     @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
         .advertisement {
-            background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
                 url(../img/advertisement/adver-desk@2x.jpg);
         }
     }
 
-    .advertisement-container{
+    .container {
         display: flex;
         flex-wrap: nowrap;
         gap: 140px;
+        padding-right: 0;
     }
-
 
 
     .advertisement-title {
         font-size: 48px;
         line-height: 0.9;
         max-width: 690px;
-        
+        min-height: 132px;
+        margin-bottom: 0;
     }
 
     .advertisement-btn{
-        width: 160px;
-        height: 48px;
-        
+margin: 0;
+
     }
+
+
 }
