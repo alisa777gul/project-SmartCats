@@ -18,6 +18,8 @@ margin-left: auto;
     padding-right: 0;
 }
 
+.
+
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
@@ -79,6 +81,15 @@ margin-left: auto;
     color: #fbfbfb;
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+.advertisement-btn:hover,
+.advertisement-btn:focus{
+
+    color: #0c0c0c;
+    background-color: #fbfbfb;
+
 }
 
 @media screen and (min-width: 375px){
