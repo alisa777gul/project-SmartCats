@@ -78,6 +78,10 @@
     }
 }
 
+.person{
+    background-color: #F3F3F3;
+}
+
 .hero__actions {
     display: flex;
     justify-content: space-between;
