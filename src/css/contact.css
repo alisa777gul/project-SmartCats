@@ -171,12 +171,13 @@
 
     .container-contact {
         gap: 40px;
+        display: flex;
         margin-right: 20px;
         width: 100%;
         width: 580px;
         height: 556px;
-       
-      
+        justify-content: space-between;
+        
     }
 
     .contact-us-text {
@@ -187,6 +188,7 @@
     }
 
     .image-right { 
+        
     }
 
     .modal-form {
@@ -198,6 +200,7 @@
         width: 530px;
         height: auto;
         display: flex;   
+        text-align: right;
     }
 
 
