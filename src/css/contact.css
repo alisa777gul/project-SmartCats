@@ -160,24 +160,23 @@
         padding: 0px 65px;
         width: 1280px;
         height: 640px;
+        
     }
 
     .contact-us {
         margin-bottom: 40px;
         width: 100%;
         text-align: left;
-        
     }
 
     .container-contact {
-        gap: 40px;
+        
         display: flex;
         margin-right: 20px;
         width: 100%;
         width: 580px;
-        height: 556px;
-        justify-content: space-between;
-        
+        height: auto;
+         
     }
 
     .contact-us-text {
@@ -188,6 +187,8 @@
     }
 
     .image-right { 
+    justify-content: right;
+ 
         
     }
 
@@ -197,10 +198,16 @@
     }
 
     .image-contact {
-        width: 530px;
+        width: 100%;
         height: auto;
-        display: flex;   
-        text-align: right;
+         
+    }
+
+    .container-for-desktop {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+      
     }
 
 
