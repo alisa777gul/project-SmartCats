@@ -36,6 +36,74 @@
     margin-bottom: auto;
 }
 
+.modal-form {
+    margin-left: 28px;
+}
+
+.modal-field {}
+
+.label-class {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modal-input-container {}
+
+.modal-input {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 226px 12px 14px;
+    width: 279px;
+    height: 42px;
+    background: #f3f3f3;
+    color: #0c0c0c;
+    margin-bottom: 18px;
+}
+
+.comment-modal-field {}
+
+.modal-text {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 136px 54px 14px;
+    width: 279px;
+    height: 84px;
+    background: #f3f3f3;
+    color: #0c0c0c;
+}
+
+.modal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 16px;
+    padding: 12px 50px;
+    width: 134px;
+    height: 42px;
+    background: #3350e9;
+    margin-top: 28px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    border: none;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+.image-right {
+    margin-top: 20px;
+}
+
+.image-contact {
+    border-radius: 30px;
+    width: 100%;
+    display: block;
+}
+
 @media screen and (min-width: 768px) {
     .section-contact {
         width: 704px;
@@ -73,6 +141,18 @@
     .image-contact {
         border-radius: 50px;
     }
+
+    .modal-input {
+        padding: 16px 398px 16px 18px;
+        width: 460px;
+        height: 52px;
+    }
+
+    .modal-text {
+        padding: 16px 315px 54px 16px;
+        width: 460px;
+        height: 90px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -80,14 +160,24 @@
         padding: 0px 65px;
         width: 1280px;
         height: 640px;
+        justify-content: space-between;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+    }
+
+    .contact-us {
+        margin-bottom: 40px;
+        width: 100%;
+        text-align: center;
+        
     }
 
     .container-contact {
-        gap: 32px;
         margin-right: 20px;
+        display: flex;
+        width: 100%;
+        width: 580px;
+        height: 556px;
     }
 
     .contact-us-text {
@@ -98,10 +188,6 @@
     }
 
     .image-right {
-        width: 530px;
-        display: flex;
-        justify-content: center;
-        
     }
 
     .modal-form {
@@ -110,74 +196,11 @@
     }
 
     .image-contact {
-        width: 100%;
+        width: 530px;
+        height: auto;
+        display: flex;
+        justify-content: left;
     }
 
 
-}
-
-
-.modal-form {
-    margin-left: 28px;
-}
-
-.modal-field {}
-
-.label-class {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.modal-input-container {}
-
-.modal-input {
-    border: 1px solid rgba(12, 12, 12, 0.15);
-    border-radius: 12px;
-    padding: 12px 226px 12px 14px;
-    width: 279px;
-    height: 42px;
-    background: #f3f3f3;
-    color: #0c0c0c;
-    margin-bottom: 18px;
-}
-
-.comment-modal-field {}
-
-.modal-text {
-    border: 1px solid rgba(12, 12, 12, 0.15);
-    border-radius: 12px;
-    padding: 16px 315px 54px 16px;
-    width: 460px;
-    height: 84px;
-    gap: 18px;
-    background: #f3f3f3;
-    color: #0c0c0c;
-}
-
-.modal-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 16px;
-    padding: 12px 50px;
-    width: 134px;
-    height: 42px;
-    background: #3350e9;
-    color: #FBFBFB;
-    margin-top: 28px;
-    cursor: pointer;
-    margin-bottom: 50px;
-}
-
-.image-right {
-    margin-top: 20px;
-}
-
-.image-contact {
-    border-radius: 30px;
-    width: 100%;
-    display: block;
 }
