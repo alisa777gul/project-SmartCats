@@ -100,7 +100,13 @@ background-color: #1f3cd4;;
     .catalog-list li:nth-last-child(-n+2) {
         display: list-item;
     }
-
+.title-catalog{
+font-weight: 600;
+font-size: 48px;
+line-height: 0.91667;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+}
     .catalog-list {
         flex-direction: row;
         flex-wrap: wrap;
