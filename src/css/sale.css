@@ -84,9 +84,11 @@ ol {
     flex-direction: row;
     /* flex-wrap: wrap; */
     gap: 5px;
+    width: calc((100%-15px) - 4);
   }
   .sale-card-box {
     padding: 48px, 28px;
+    border-radius: 50px;
   }
 }
 
@@ -122,5 +124,12 @@ ol {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  /* ======================== */
+  .sale-card-box {
+    padding: 60px;
+
+    width: 530px;
+    height: 558px;
   }
 }
