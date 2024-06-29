@@ -1,0 +1,126 @@
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* .container {
+} */
+.sale-container {
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  background-color: brown;
+}
+
+.sale-all-wtch {
+  display: flex;
+}
+.sale-content-box {
+  display: flex;
+  /* flex-direction: column; */
+}
+.sale-min-wtch-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ====================== card === */
+.sale-card-box {
+  padding: 60px;
+}
+.sale-stat-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sale-stat-item {
+  padding: 5px;
+}
+
+/* ====================================== mobile ============ */
+/* and (min-width: 375px) */
+@media screen and (max-width: 767px) {
+  .sale-container {
+    max-width: 375px;
+    /* from 320 to 375 responsive cont.*/
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .sale-min-wtch-list {
+    width: 100%;
+    height: 100%;
+  }
+  .sale-min-wtch-item {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sale-big-wtch-box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sale-big-wtch-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* = .sale-content-box > .sale-all-wtch + .sale-card-box = */
+  .sale-content-box {
+    flex-direction: column;
+  }
+  .sale-all-wtch {
+    flex-direction: column;
+  }
+  /* ======== tyt row mae buti=== */
+  .sale-min-wtch-list {
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 5px;
+  }
+  .sale-card-box {
+    padding: 48px, 28px;
+  }
+}
+
+/* ======================================= tab ============== */
+
+@media screen and (min-width: 768px) {
+  .sale-container {
+    background-color: antiquewhite;
+    max-width: 768px;
+  }
+  /* = .sale-content-box > .sale-all-wtch + .sale-card-box = */
+  .sale-content-box {
+    flex-direction: column;
+  }
+}
+
+/* ===================================== desctop =========== */
+
+@media screen and (min-width: 1284px) {
+  .sale-container {
+    max-width: 1284px;
+    background-color: #322c2c;
+  }
+  /* = .sale-content-box > .sale-all-wtch + .sale-card-box = */
+  .sale-content-box {
+    display: flex;
+    flex-direction: row;
+  }
+  .sale-min-wtch-list {
+    flex-direction: column;
+  }
+  .sale-big-wtch-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
