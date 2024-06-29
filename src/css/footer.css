@@ -8,7 +8,9 @@
   background-color: #0c0c0c;
   display: flex;
   flex-direction: column;
-  height: 581px;
+  height: 100%;
+  width: 100%;
+  /* height: 581px; */
 }
 .footer-first-box {
   display: flex;
@@ -60,7 +62,7 @@
 .footer-imput::placeholder {
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.33;
+  line-height: 1.3;
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
@@ -143,28 +145,103 @@
   }
   .footer-container {
     padding: 40px 40px 28px 40px;
+    height: 100%;
   }
   .footer-first-box {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .flex-item {
-    flex-basis: 50%;
+  .footer-box-logo,
+  .form-tel {
+    flex: 1;
+    min-width: 50%;
+    box-sizing: border-box;
   }
-  .flex-item:nth-child(3) {
-    flex-basis: 100%;
+  /* .flex-item {
+        flex: 1;
+    min-width: 50%;
+    box-sizing: border-box;
+  } */
+  .footer-logo {
+    font-size: 20px;
+  }
+  .footer-imput::placeholder {
+    font-size: 14px;
+  }
+  /* .flex-item:nth-child(3) {
     padding-right: 50px;
     padding-left: 50px;
-  }
+    min-width: 100%;
+    max-width: 524px;
+  } */
   .footer-title {
     font-size: 28px;
     line-height: 1.14;
+    margin-bottom: 100px;
+    margin-top: 86px;
+    width: 524px;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .form-tel {
     display: flex;
     justify-content: end;
   }
+  .footer-list {
+    flex-wrap: nowrap;
+    gap: 19px;
+    width: 400px;
+  }
+  .footer-list-linc {
+    font-size: 14px;
+  }
+  .footer-addres {
+    font-size: 14px;
+    width: 162px;
+  }
+  .footer-text {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  .footer-polisy-item {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  .footer-policy-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-policy-list {
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .footer-first-box {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    margin-bottom: 126px;
+  }
+  .flex-item {
+    min-width: 10%;
+  }
+  .flex-item:nth-child(3) {
+    flex: 1;
+    order: 2; /* Змінює порядок третього елемента */
+    flex: 0 0 532px; /* Фіксований розмір третього елемента */
+    height: 96px;
+  }
+  .flex-item:nth-child(2) {
+    order: 3; /* Змінює порядок другого елемента */
+  }
+  .footer-title {
+    margin: 0;
+  }
+  .flex-item:nth-child(1) {
+    order: 1; /* Змінює порядок першого елемента */
+  }
+  .footer-linc-box {
+    margin-bottom: 74px;
+  }
 }
