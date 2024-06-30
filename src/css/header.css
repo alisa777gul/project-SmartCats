@@ -9,8 +9,10 @@
 } 
 
 .header{
-    border-bottom: 1px;
-        border-color: rgba(12, 12, 12, 0.1);
+   
+      
+        border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+        /* border-width: 100%; */
 }
 
 .network-svg{
@@ -65,13 +67,7 @@
     height:34px;
 }
 
-ul,
-ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    padding-left: 0;
-}
+
 
 .open-menu-btn {
     padding: 0;
