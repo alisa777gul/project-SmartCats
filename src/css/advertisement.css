@@ -20,13 +20,12 @@ margin-left: auto;
 
 .
 
-@media screen and (-webkit-min-device-pixel-ratio: 2),
+@media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
     .advertisement {
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
             url(../img/advertisement/adver-mob@2x.jpg);
-
     }
 }
 
