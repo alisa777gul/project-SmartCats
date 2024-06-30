@@ -76,6 +76,15 @@ background-color: #1f3cd4;;
 .catalog-list li:nth-last-child(-n+2) {
     display: none;
 }
+
+.catalog-list-elements{
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.catalog-list-elements:hover{
+    transform: scale(1.1);
+}
+
 /* Зміни для екранів від 375px */
 @media (min-width: 375px) {
     .catalog-list {
