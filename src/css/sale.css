@@ -1,14 +1,4 @@
-ul,
-ol {
-  list-style-type: none;
-  padding-left: 0;
-  margin: 0;
-}
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
-}
 
 /* .container {
 } */
@@ -19,14 +9,12 @@ ol {
 }
 
 .title-sale {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
-  font-size: 48px;
-  letter-spacing: -0.02em;
-
-  line-height: 0.91;
-
-  color: #0c0c0c;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+  
 }
 
 .sale-content-box {
@@ -56,7 +44,7 @@ ol {
 
 .sale-big-wtch-box {
   border: 1px solid rgba(12, 12, 12, 0.05);
-  border-radius: 50px;
+  border-radius: 30px;
 
   display: flex;
   justify-content: center;
@@ -67,25 +55,23 @@ ol {
 
 .sale-card-box {
   background-color: #3350e9;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 .sale-card-title {
-  margin-bottom: 20px;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1.12;
+  margin-bottom: 10px;
+font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
   letter-spacing: -0.02em;
   color: #fbfbfb;
 }
 .sale-card-tag {
-  margin-bottom: 10px;
-  font-family: 'Gilroy', sans-serif;
+  margin-bottom: 20px;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.28571;
-  letter-spacing: -0.02em;
-  color: rgba(251, 251, 251, 0.5);
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
 }
 .sale-card-price-box {
   display: flex;
@@ -105,9 +91,9 @@ ol {
   width: 78px;
   height: 32px;
   font-family: 'Gilroy', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1;
+font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
   letter-spacing: -0.02em;
   color: #fbfbfb;
 }
@@ -116,8 +102,7 @@ ol {
   justify-content: center;
   align-items: center;
 
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 400;
+font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: -0.02em;
@@ -130,10 +115,9 @@ ol {
 
 .sale-card-text {
   margin-bottom: 28px;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
+font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.7);
 }
@@ -150,12 +134,133 @@ ol {
   /* width: 145px; */
   height: 34px;
 
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28571;
+font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33333;
   color: #fbfbfb;
 }
+
+@media screen and (min-width: 768px) {
+
+  
+    .title-sale {
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 600;
+      font-size: 48px;
+      letter-spacing: -0.02em;
+  
+      line-height: 0.91;
+  
+      color: #0c0c0c;
+    }
+  
+  
+  
+    .sale-big-wtch-box {
+      border: 1px solid rgba(12, 12, 12, 0.05);
+      border-radius: 50px;
+  
+    }
+  
+    .sale-card-box {
+      background-color: #3350e9;
+      border-radius: 50px;
+    }
+  
+    .sale-card-title {
+
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      color: #fbfbfb;
+    }
+  
+    .sale-card-tag {
+   
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.28571;
+      letter-spacing: -0.02em;
+      color: rgba(251, 251, 251, 0.5);
+    }
+  
+    .sale-card-price-box {
+      display: flex;
+      gap: 9px;
+    }
+  
+    .sale-card-price {
+      border-radius: 8px;
+      width: 78px;
+      height: 32px;
+      background-color: rgba(251, 251, 251, 0.1);
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      width: 78px;
+      height: 32px;
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1;
+      letter-spacing: -0.02em;
+      color: #fbfbfb;
+    }
+  
+    .sale-card-old-price {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 1.16667;
+      letter-spacing: -0.02em;
+      text-decoration: line-through;
+      color: rgba(251, 251, 251, 0.5);
+    }
+  
+    .sale-card-price-box {
+      margin-bottom: 30px;
+    }
+  
+    .sale-card-text {
+      margin-bottom: 40px;
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: rgba(251, 251, 251, 0.7);
+    }
+  
+    .sale-card-stat-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+  
+    .sale-card-stat-item {
+      border: 1px solid rgba(251, 251, 251, 0.2);
+      border-radius: 8px;
+      padding: 8px 12px;
+      /* width: 145px; */
+      height: 34px;
+  
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.28571;
+      color: #fbfbfb;
+    }
+}
+
 
 /* ================== mobile ============ */
 
