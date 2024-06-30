@@ -1,0 +1,459 @@
+
+
+/* .container {
+} */
+.sale-container {
+  padding-left: 20px;
+  padding-left: 20px;
+  padding-bottom: 100px;
+}
+
+.title-sale {
+  font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+  
+}
+
+.sale-content-box {
+  display: flex;
+  align-items: center;
+}
+
+.sale-all-wtch {
+  display: flex;
+}
+
+.sale-min-wtch-list {
+  display: flex;
+  flex-direction: column;
+}
+.sale-min-wtch-item {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 20px;
+
+  background-color: #f3f3f3;
+}
+
+.sale-big-wtch-box {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f3f3f3;
+}
+
+.sale-card-box {
+  background-color: #3350e9;
+  border-radius: 30px;
+}
+.sale-card-title {
+  margin-bottom: 10px;
+font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.sale-card-tag {
+  margin-bottom: 20px;
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
+.sale-card-price-box {
+  display: flex;
+  gap: 9px;
+}
+
+.sale-card-price {
+  border-radius: 8px;
+  width: 78px;
+  height: 32px;
+  background-color: rgba(251, 251, 251, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 78px;
+  height: 32px;
+  font-family: 'Gilroy', sans-serif;
+font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.sale-card-old-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+.sale-card-price-box {
+  margin-bottom: 28px;
+}
+
+.sale-card-text {
+  margin-bottom: 28px;
+font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+}
+
+.sale-card-stat-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.sale-card-stat-item {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  /* width: 145px; */
+  height: 34px;
+
+font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33333;
+  color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+
+  
+    .title-sale {
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 600;
+      font-size: 48px;
+      letter-spacing: -0.02em;
+  
+      line-height: 0.91;
+  
+      color: #0c0c0c;
+    }
+  
+  
+  
+    .sale-big-wtch-box {
+      border: 1px solid rgba(12, 12, 12, 0.05);
+      border-radius: 50px;
+  
+    }
+  
+    .sale-card-box {
+      background-color: #3350e9;
+      border-radius: 50px;
+    }
+  
+    .sale-card-title {
+
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      color: #fbfbfb;
+    }
+  
+    .sale-card-tag {
+   
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.28571;
+      letter-spacing: -0.02em;
+      color: rgba(251, 251, 251, 0.5);
+    }
+  
+    .sale-card-price-box {
+      display: flex;
+      gap: 9px;
+    }
+  
+    .sale-card-price {
+      border-radius: 8px;
+      width: 78px;
+      height: 32px;
+      background-color: rgba(251, 251, 251, 0.1);
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      width: 78px;
+      height: 32px;
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1;
+      letter-spacing: -0.02em;
+      color: #fbfbfb;
+    }
+  
+    .sale-card-old-price {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 1.16667;
+      letter-spacing: -0.02em;
+      text-decoration: line-through;
+      color: rgba(251, 251, 251, 0.5);
+    }
+  
+    .sale-card-price-box {
+      margin-bottom: 30px;
+    }
+  
+    .sale-card-text {
+      margin-bottom: 40px;
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: rgba(251, 251, 251, 0.7);
+    }
+  
+    .sale-card-stat-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+  
+    .sale-card-stat-item {
+      border: 1px solid rgba(251, 251, 251, 0.2);
+      border-radius: 8px;
+      padding: 8px 12px;
+      /* width: 145px; */
+      height: 34px;
+  
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.28571;
+      color: #fbfbfb;
+    }
+}
+
+
+/* ================== mobile ============ */
+
+@media screen and (max-width: 374px) {
+  .sale-min-wtch-list {
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+  }
+
+  .sale-min-wtch-item {
+    width: 100%;
+    height: 100%;
+  }
+  .sale-min-wtch-img {
+    width: 100%;
+    height: 100%;
+  }
+  .sale-big-wtch-box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sale-big-wtch-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .sale-container {
+    max-width: 375px;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .title-sale {
+    margin-bottom: 24px;
+  }
+  /* = .sale-content-box > .sale-all-wtch + .sale-card-box = */
+  .sale-content-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sale-all-wtch {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sale-min-wtch-list {
+    flex-direction: row;
+
+    gap: 5px;
+  }
+
+  .sale-min-wtch-item {
+    width: 80px;
+    height: 80px;
+  }
+
+  .sale-min-wtch-img {
+    width: 52px;
+    height: 54px;
+  }
+
+  .sale-big-wtch-box {
+    width: 335px;
+    height: 385px;
+  }
+
+  .sale-big-wtch-img {
+    width: 235px;
+    height: 285px;
+  }
+  /*               =================== CARD */
+  .sale-card-box {
+    padding-top: 48px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-bottom: 48px;
+    border-radius: 50px;
+  }
+
+  /* sale-card-stat-list
+      sale-card-stat-item */
+}
+
+/* ======================================= tab ============== */
+
+@media screen and (min-width: 768px) {
+  .sale-container {
+    max-width: 768px;
+  }
+  .title-sale {
+    margin-bottom: 40px;
+  }
+  /* = .sale-content-box > .sale-all-wtch + .sale-card-box = */
+  .sale-content-box {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .sale-all-wtch {
+    width: 704px;
+    height: 558px;
+    gap: 20px;
+  }
+
+  .sale-min-wtch-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sale-min-wtch-item {
+    display: flex;
+
+    width: 132px;
+    height: 132px;
+
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 20px;
+
+    padding: 16px, 18px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sale-min-wtch-img {
+    width: 96px;
+    height: 100px;
+  }
+
+  .sale-big-wtch-box {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 50px;
+    width: 552px;
+    height: 558px;
+  }
+  .sale-card-box {
+    padding: 60px;
+    width: 704px;
+    height: 518px;
+  }
+  sale-card-price-box {
+    margin-bottom: 30px;
+  }
+  .sale-card-text {
+    margin-bottom: 40px;
+  }
+  /* sale-card-stat-list */
+  /* sale-card-stat-item */
+}
+
+/* ========================== desctop =========== */
+
+@media screen and (min-width: 1284px) {
+  .sale-container {
+    max-width: 1150px;
+  }
+
+  .sale-content-box {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .sale-all-wtch {
+    gap: 20px;
+    width: 580px;
+    height: 558;
+  }
+  .sale-min-wtch-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sale-min-wtch-item {
+    padding: 16px, 18px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sale-big-wtch-box {
+    width: 428;
+    height: 558;
+  }
+  /* ======================== */
+  .sale-card-box {
+    padding: 60px;
+    border-radius: 50px;
+
+    min-width: 530px;
+    height: 558px;
+  }
+  /* sale-card-stat-list */
+  /* sale-card-stat-item */
+}
