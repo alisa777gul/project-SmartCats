@@ -193,7 +193,7 @@ border: none;
     top: 0;
     width: 200px;
     height: 100%;
-    background: #0c0c0c;
+    
     left: 100%;
     transform: translateX(-100%);
     visibility: hidden;
@@ -205,19 +205,26 @@ border: none;
     /* justify-content: space-between; */
     z-index: 999;
 
-
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0,0.92), rgba(0,
+background-repeat: no-repeat;
+    background-position: center;
+  
+    background-size: cover;
+        background: linear-gradient(to bottom, rgba(0, 0, 0,0.92), rgba(0,
                     0,
                     0,
-                    0.92)), url(./img/header/header-mob.jpg);
+                    0.92)), url(../img/header/header-mob.jpg);
 }
 
 @media (min-resolution: 192dpi) and (max-width:767px) {
     .mob-menu {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.92), rgba(0,
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.92), rgba(0,
             0,
             0,
-        0.92)), url(./img/header/header-mob.jpg);
+        0.92)), url(../img/header/header-mob.jpg);
+        background-repeat: no-repeat;
+            background-position: center;
+        
+            background-size: cover;
     }
 }
 
@@ -225,19 +232,31 @@ border: none;
 
 @media (max-width:767px) {
     .mob-menu {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url(./img/header/header-mob.jpg);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url(../img/header/header-mob.jpg);
+background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
     }
 }
 
 @media (min-width:768px) and (max-width:1280px) {
     .mob-menu {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0,0.92), rgba(0, 0, 0, 0.92)), url(./img/header/header-tab.jpg);
+    background-repeat: no-repeat;
+        background-position: center;
+    
+        background-size: cover;
+        background: linear-gradient(to bottom, rgba(0, 0, 0,0.92), rgba(0, 0, 0, 0.92)), url(../img/header/header-tab.jpg);
     }
 }
 
 @media (min-resolution: 192dpi) and (min-width:768px) and (max-width:1280px) {
     .mob-menu {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.92),rgba(0, 0, 0, 0.92)), url(./img/header/header-tab@2x.jpg);
+    background-repeat: no-repeat;
+        background-position: center;
+    
+        background-size: cover;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.92),rgba(0, 0, 0, 0.92)), url(../img/header/header-tab@2x.jpg);
     }
 }
 
