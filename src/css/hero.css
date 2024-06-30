@@ -10,6 +10,29 @@
     }
 }
 
+.hero-premium{
+    position: relative;
+    overflow: hidden;
+}
+
+.watch{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-premium::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(12, 12, 12, 0.2);
+    z-index: 1;
+}
+
+
 .hero {
     display: flex;
     flex-direction: column;
