@@ -1,75 +1,4 @@
- /*Base styles
 
-
-
-
-
-
-@media screen and (min-width: 768px) {
-    .container-contact {
-        min-width: 704px;
-        min-height: 556px;
-    }
-
-    .contact-us {
-        font-size: 48px;
-        margin-bottom: 40px;
-    }
-
-    .contact-us-text {
-        font-size: 16px;
-        line-height: 1.25;
-        margin-bottom: 32px;
-        max-height: 40px;
-        max-width: 460px;
-    }
-
-    .image-contact {
-        border-radius: 50px;
-    }
-
-    .modal-input {
-        padding: 16px 18px;
-        width: 460px;
-        height: 52px;
-    }
-
-    .modal-text {
-        padding: 16px 16px;
-        width: 460px;
-    }
-
-    .modal-button {
-        padding: 17px 63px;
-    }
-}
-
-
-@media screen and (min-width: 1280px) {
-    .container-contact {
-        max-width: 580px;
-
-        min-width: 580px;
-        max-height: 556px;
-    }
-
-    .contact-us {
-        margin-bottom: 40px;
-        text-align: left;
-    }
-
-    .image-contact {
-        border-radius: 50px;
-        min-width: 530px;
-        min-height: 556px;
-    }
-
-    .for-desktop {
-        flex-direction: row;
-        justify-content: space-between;
-
-    }
-} */ 
  
 .contact-us-text {
     font-weight: 500;
@@ -205,7 +134,7 @@ textarea:hover{
 }
 
 
-
+/* f */
 .modal-button:hover,
 .modal-button:focus{
 background: #1f3cd4;
