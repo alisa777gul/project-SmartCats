@@ -1,55 +1,55 @@
-body{
-
-    background-color: #fbfbfb;
-    font-family: "Gilroy", sans-serif;
-    color: #0c0c0c;
+body {
+  background-color: #fbfbfb;
+  font-family: 'Gilroy', sans-serif;
+  color: #0c0c0c;
 }
 
-.container{
-    width: 100%;
-    margin: 0 auto;  
-    padding: 0 20px;
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 section {
-    margin-top: 0;
-    margin-bottom: 60px;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+input {
+  font-family: inherit;
 }
 
-@media (min-width:320px) and (max-width: 374px) {
-.container {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
+@media (min-width: 320px) and (max-width: 374px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 }
 
-
-@media screen and (min-width: 375px){
-    .container{
-max-width: 375px;
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
 }
-}
 
-@media screen and (min-width: 768px){
-    .container{
+@media screen and (min-width: 768px) {
+  .container {
     max-width: 768px;
     padding: 0 32px;
-    }
+  }
 
-    section{
-        margin-bottom: 80px;
-    }
+  section {
+    margin-bottom: 80px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding: 0 65px;
-    }
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
 
-section{
+  section {
     margin-bottom: 100px;
-}
-
+  }
 }
