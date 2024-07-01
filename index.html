@@ -66,7 +66,106 @@
       
       
       
-      
+      <section class="section contact" id="contact">
+  <div class="container">
+    <h3 class="contact-us">Contact Us</h3>
+    <div class="cont">
+      <div class="container-contact">
+        <p class="contact-us-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+
+        <form class="modal-form">
+          <div class="mdl">
+            <div class="modal-field">
+              <label for="user-name" class="label-class"></label>
+              <div class="modal-input-container">
+                <input
+                  type="text"
+                  name="user-name"
+                  class="modal-input"
+                  id="user-name"
+                  required
+                  placeholder="Name"
+                />
+              </div>
+            </div>
+
+            <div class="modal-field">
+              <label for="user-email" class="label-class"> </label>
+              <div class="modal-input-container">
+                <input
+                  type="text"
+                  name="user-email"
+                  class="modal-input"
+                  id="user-email"
+                  required
+                  placeholder="Email"
+                  pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                />
+              </div>
+            </div>
+
+            <div class="modal-field">
+              <label for="user-phone" class="label-class"></label>
+              <div class="modal-input-container">
+                <input
+                  type="text"
+                  name="user-phone"
+                  class="modal-input"
+                  id="user-phone"
+                  required
+                  placeholder="+380"
+                  pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                />
+              </div>
+            </div>
+
+            <div class="comment-modal-field">
+              <label for="user-comment" class="label-class"> </label>
+              <div class="modal-input-container"></div>
+              <textarea
+                id="user-comment"
+                name="user-comment"
+                class="modal-text"
+                required
+                rows="5"
+                placeholder="Comment"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="modal-button">Send</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="image-right">
+        <picture>
+          <source
+            srcset="/project-SmartCats/assets/contact-desk-d84e590b.jpeg 1x, /project-SmartCats/assets/contact-desk@2x-e5c7eff5.jpeg 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/project-SmartCats/assets/contact-tablet-0bbb013f.jpeg 1x, /project-SmartCats/assets/contact-tablet@2x-e664a188.jpeg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/project-SmartCats/assets/contact-mob-a4201ba1.jpeg 1x, /project-SmartCats/assets/contact-mob@2x-97f817dd.jpeg 2x"
+            media="(min-width: 320px)"
+          />
+          <img
+            src="./img/contact/contact/contact-desk.jpeg"
+            alt="contact-image"
+            class="image-contact"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+
     </main>
 
     <footer class="footer" id="footer">
