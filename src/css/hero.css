@@ -41,7 +41,7 @@
     gap: 28px;
     margin-top: 60px;
     width: 100%;
-    background-color: #fff;
+   
 
     @media screen and (min-width: 768px) {
         gap: 40px;
