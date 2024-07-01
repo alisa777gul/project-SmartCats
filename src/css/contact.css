@@ -1,10 +1,13 @@
-.section-contact {
-    padding: 0px 20px;
-    width: 375px;
-    height: 1100px;
-   
-}
-
+.contact-us-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    max-height: 54px;
+    margin-bottom: 28px;
+    text-align: left;
+} 
 .contact-us {
     font-weight: 600;
     font-size: 32px;
@@ -12,102 +15,144 @@
     letter-spacing: -0.02em;
     color: #0c0c0c;
     margin-bottom: 24px;
+    text-align: left;
 }
-
-.container-contact {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 20px;
-    border-radius: 50px;
-    background: #f3f3f3;
-
-}
-
-.contact-us-text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28571;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
-    margin-top: 48px;
-    margin-left: 28px;
-    margin-right: 28px;
-    margin-bottom: auto;
-}
-
-.modal-form {
-    margin-left: 28px;
-}
-
-.modal-field {}
-
-.label-class {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.modal-input-container {}
-
-.modal-input {
-    border: 1px solid rgba(12, 12, 12, 0.15);
-    border-radius: 12px;
-    padding: 12px 226px 12px 14px;
-    width: 279px;
-    height: 42px;
-    background: #f3f3f3;
-    color: #0c0c0c;
-    margin-bottom: 18px;
-}
-
-.comment-modal-field {}
-
-.modal-text {
-    border: 1px solid rgba(12, 12, 12, 0.15);
-    border-radius: 12px;
-    padding: 12px 136px 54px 14px;
-    width: 279px;
-    height: 84px;
-    background: #f3f3f3;
-    color: #0c0c0c;
-}
-
-.modal-button {
+.cont{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 16px;
-    padding: 12px 50px;
-    width: 134px;
-    height: 42px;
-    background: #3350e9;
-    margin-top: 28px;
-    cursor: pointer;
-    margin-bottom: 50px;
-    border: none;
-    font-size: 14px;
-    line-height: 1.28571;
-    text-align: center;
-    color: #fbfbfb;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+    width: 100%;
+   
+}
+.container-contact {
+    padding: 48px 28px;
+
+ 
+    border-radius: 50px;
+    background: #f3f3f3;
+   width: 100%;
+    
 }
 
-.image-right {
-    margin-top: 20px;
+form{
+    box-sizing: border-box;
+}
+
+.modal-input
+  { border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+width: 100%;
+   background-color: transparent;
+padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+   outline: transparent;
+    display: block;
+   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    
+    color: #0c0c0c;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    height: 42px;
+   }
+
+.modal-input:hover,
+.modal-input:focus {
+    border: 1px solid #3350e9;
+ 
+}
+
+textarea {
+  
+    width: 100%;
+    box-sizing: border-box;
+
+    border: 1px solid rgba(12, 12, 12, 0.15);
+        border-radius: 12px;
+        width: 100%;
+        background-color: transparent;
+        padding-left: 14px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        outline: transparent;
+     
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #0c0c0c;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   height: 84px;
+vertical-align:top;
+}
+
+.comment-modal-field{overflow: hidden;}
+
+input::placeholder{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.23;
+        color: #0c0c0c;
+}
+
+textarea::placeholder {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.23;
+    color: #0c0c0c;
+
+}
+
+textarea:focus,
+textarea:hover{
+    border: 1px solid #3350e9;
+}
+
+.modal-button{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+        font-weight: 500;
+            font-size: 14px;
+            line-height: 1.28571;
+            text-align: center;
+            color: #fbfbfb;
+            background: #3350e9;
+            border-radius: 16px;
+                padding: 12px 50px;
+              border: none;
+               margin-top:28px; 
+}
+
+
+/* f */
+.modal-button:hover,
+.modal-button:focus{
+background: #1f3cd4;
 }
 
 .image-contact {
     border-radius: 30px;
     width: 100%;
+    height: auto;
+    object-fit: cover;
     display: block;
+    max-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-    .section-contact {
-        width: 704px;
-        height: 1236px;
+ 
+
+    .container-contact{
+        padding: 50px 122px;
+        border-radius: 50px;
     }
 
     .contact-us {
@@ -115,100 +160,111 @@
         margin-bottom: 40px;
     }
 
-    .container-contact {
-        gap: 40px;
-    }
-
     .contact-us-text {
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.25;
-        margin-top: 50px;
-        margin-left: 122px;
-        margin-right: 122px;
-        margin-bottom: auto;
+        letter-spacing: -0.02em;
+        color: rgba(12, 12, 12, 0.7);
+        max-width: 460px;
     }
 
-    .image-right {
-        margin-top: 40px;
 
+    .modal-input{
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.25;
+            color: #0c0c0c;
+           height: 52px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 16px;
     }
 
-    .modal-form {
-        margin-left: 122px;
-        margin-right: 122px;
+    .modal-button{
+        border-radius: 16px;
+     padding: 17px 63px;
+margin-top: 32px;
+            
     }
 
+    textarea{
+        height: 90px;
+        padding-right: 16px;
+        padding-top: 16px;
+       
+    }
     .image-contact {
         border-radius: 50px;
     }
 
-    .modal-input {
-        padding: 16px 398px 16px 18px;
-        width: 460px;
-        height: 52px;
-    }
-
-    .modal-text {
-        padding: 16px 315px 54px 16px;
-        width: 460px;
-        height: 90px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .section-contact {
-        padding: 0px 65px;
-        width: 1280px;
-        height: 640px;
-        
-    }
-
-    .contact-us {
-        margin-bottom: 40px;
-        width: 100%;
-        text-align: left;
-    }
-
-    .container-contact {
-        
-        display: flex;
-        margin-right: 20px;
-        width: 100%;
-        width: 580px;
-        height: auto;
-         
-    }
-
-    .contact-us-text {
-        margin-top: 50px;
-        margin-left: 60px;
-        margin-right: 60px;
-        margin-bottom: auto;
-    }
-
-    .image-right { 
-    justify-content: right;
- 
-        
-    }
-
-    .modal-form {
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-
-    .image-contact {
-        width: 100%;
-        height: auto;
-         
-    }
-
-    .container-for-desktop {
-        display: flex;
-        justify-content: center;
+      .cont{
         gap: 40px;
-      
+      }
+    
+
+                .contact-us-text {
+                    margin-bottom: 32px;
+                }
     }
 
 
+    @media screen and (min-width: 1280px) {
+       
+    .container-contact{
+        padding: 50px 60px;
+    }
+    
+        .contact-us-text {
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: -0.02em;
+            color: rgba(12, 12, 12, 0.7);
+        }
+    
+        .image-contact {
+            border-radius: 50px;
+        }
+    
+        .modal-input {
+            padding: 16px 18px;
+            width: 460px;
+            height: 52px;
+        }
+    
+        .modal-text {
+            padding: 16px 16px;
+            width: 460px;
+        }
+    
+        .modal-button {
+            padding: 17px 63px;
+        }
+        
+        .container-contact {
+            max-width: 580px;
+    
+           
+        }
+
+.modal-input{
+    padding-right: 18px;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        color: #0c0c0c;
 }
+
+textarea{
+    padding-right: 18px;
+}
+
+
+    }
+    
+   
+
+
+
+
