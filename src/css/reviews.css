@@ -1,0 +1,133 @@
+.reviews-title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+
+
+
+
+.reviews-item{
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    padding: 32px 36px;
+    width: 100%;
+    height: auto; 
+    height: 272px;
+}
+
+.img-center {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.reviews-img{
+    border-radius: 100%;
+    border: 2px solid #fbfbfb;
+}
+
+.reviewer-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #0c0c0c;
+    margin-bottom: 8px;
+}
+
+.reviews-paragraph {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.4);
+    max-height: 90px;
+
+
+}
+
+
+
+.reviews-list li:nth-child(2) {
+    display: none;
+}
+
+
+.reviews-list li:nth-child(3) {
+    display: none;
+}
+
+@media screen and (min-width: 375px) {
+    .reviews-item{
+        flex-basis: calc(100% - 40px);
+      
+    }
+}
+
+@media screen and (min-width: 768px) {
+   
+.reviews-list{
+    display: flex;
+    gap: 16px;
+}
+
+.reviews-list li:nth-child(2) {
+        display: list-item;
+    }
+
+.reviews-item{
+    flex-basis: calc(100% - 16px)/2;
+}
+
+    .reviews-title{
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+
+    .reviews-item {
+        width: 344px;
+        height: 272px;
+    }
+
+    .reviewer-name {
+        font-size: 18px;
+        line-height: 1.1;
+    }
+
+    .reviews-paragraph {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+ 
+
+    .reviews-list {
+        gap: 20px;
+    }
+
+    .reviews-item {
+        width: 370px;
+    }
+
+
+
+ 
+
+        .reviews-list li:nth-child(3) {
+            display: list-item;
+        }
+    
+        .reviews-item {
+            flex-basis: calc(100% - 40px)/3;
+        }
+}
