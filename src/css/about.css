@@ -64,7 +64,7 @@
   margin-bottom: 20px;
 }
 
-.open-btn {
+.open-link {
     padding: 15px 38px;
   font-family: var(--font-family);
   font-weight: 500;
@@ -72,7 +72,7 @@
   line-height: 129%;
   text-align: center;
   color: #fbfbfb;
- 
+ max-width: 160px;
   max-height: 48px;
 white-space: nowrap;
   border-radius: 16px;
@@ -83,10 +83,12 @@ white-space: nowrap;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+
+  transition: background-color 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-.open-btn:hover, 
-.open-btn:focus{
+.open-link:hover, 
+.open-link:focus{
   background-color: #1f3cd4;
 }
 
