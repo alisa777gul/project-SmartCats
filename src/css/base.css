@@ -1,13 +1,13 @@
-body{
+body {
 
     background-color: #fbfbfb;
     font-family: "Gilroy", sans-serif;
     color: #0c0c0c;
 }
 
-.container{
+.container {
     width: 100%;
-    margin: 0 auto;  
+    margin: 0 auto;
     padding: 0 20px;
 }
 
@@ -17,7 +17,7 @@ section {
 }
 
 @media (min-width:320px) and (max-width: 374px) {
-.container {
+    .container {
         width: 100%;
         margin: 0 auto;
         padding: 0 20px;
@@ -25,19 +25,19 @@ section {
 }
 
 
-@media screen and (min-width: 375px){
-    .container{
-max-width: 375px;
-}
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
 }
 
-@media screen and (min-width: 768px){
-    .container{
-    max-width: 768px;
-    padding: 0 32px;
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
     }
 
-    section{
+    section {
         margin-bottom: 80px;
     }
 }
@@ -48,8 +48,8 @@ max-width: 375px;
         padding: 0 65px;
     }
 
-section{
-    margin-bottom: 100px;
-}
+    section {
+        margin-bottom: 100px;
+    }
 
 }

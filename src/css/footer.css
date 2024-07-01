@@ -1,0 +1,320 @@
+.footer {
+    padding: 0 20px;
+}
+
+.footer-container {
+    border-radius: 30px;
+    padding: 40px 28px 28px 28px;
+    background-color: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-first-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon-list {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-icon-list a svg {
+    fill: #fbfbfb;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon-list a:hover svg,
+.footer-icon-list a:focus svg{
+    opacity: 0.8;
+}
+
+
+
+
+.footer-linc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-linc:hover,
+.footer-linc:focus {}
+
+.footer-imput {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 16px;
+    width: 152px;
+    height: 44px;
+    background-color: transparent;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fbfbfb;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-imput:hover,
+.footer-imput:focus {
+    border: 1px solid #3350e9;
+}
+
+.label-footer {
+    display: none;
+}
+
+.footer-imput::placeholder {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fbfbfb;
+    justify-content: center;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    align-self: center;
+    width: 279px;
+    max-height: 96px;
+    margin-bottom: 92px;
+}
+
+.footer-linc-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    width: 147px;
+}
+
+.footer-list-item {}
+
+.footer-list-linc {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: center;
+    color: #fbfbfb;
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-list-linc:hover,
+.footer-list-linc:focus {}
+
+.footer-addres {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.3;
+    color: #fbfbfb;
+    width: 83px;
+}
+
+.footer-policy-box {
+    margin-top: auto;
+}
+
+.footer-text {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    opacity: 0.9;
+}
+
+.footer-policy-list {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-polisy-item {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.footer-policy-linc {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-policy-linc:hover,
+.footer-policy-linc:focus {}
+
+@media screen and (min-width: 375px) {}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 0 32px;
+    }
+
+    .footer-container {
+        padding: 40px 40px 28px 40px;
+        height: 100%;
+    }
+
+    .footer-first-box {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-box-logo,
+    .form-tel {
+        flex: 1;
+        min-width: 50%;
+        box-sizing: border-box;
+    }
+
+    .footer-logo {
+        font-size: 20px;
+    }
+
+    .footer-imput {
+        font-size: 14px;
+    }
+
+    .footer-title {
+        font-size: 28px;
+        line-height: 1.14;
+        margin-bottom: 100px;
+        margin-top: 86px;
+        width: 524px;
+        height: 96px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-tel {
+        display: flex;
+        justify-content: end;
+    }
+
+    .footer-list {
+        flex-wrap: nowrap;
+        gap: 19px;
+        width: 400px;
+    }
+
+    .footer-list-linc {
+        font-size: 14px;
+    }
+
+    .footer-addres {
+        font-size: 14px;
+        width: 162px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+.footer-icon-list{
+margin-bottom: 0;
+}
+
+
+    .footer-polisy-item {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .footer-policy-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-linc-box{
+        margin-bottom: 56px;
+    }
+
+    .footer-policy-list {}
+}
+
+@media screen and (min-width: 1280px) {
+    .footer-first-box {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-bottom: 126px;
+    }
+
+    .flex-item {
+        min-width: 10%;
+    }
+
+    .flex-item:nth-child(3) {
+        flex: 1;
+        order: 2;
+        /* Змінює порядок третього елемента */
+        flex: 0 0 532px;
+        /* Фіксований розмір третього елемента */
+        height: 96px;
+    }
+
+    .flex-item:nth-child(2) {
+        order: 3;
+        /* Змінює порядок другого елемента */
+    }
+
+    .footer-title {
+        margin: 0;
+    }
+
+    .flex-item:nth-child(1) {
+        order: 1;
+        /* Змінює порядок першого елемента */
+    }
+
+    .footer-linc-box {
+        margin-bottom: 56px;
+    }
+}
