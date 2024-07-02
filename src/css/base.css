@@ -13,7 +13,7 @@ body {
 
 section {
     margin-top: 0;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 @media (min-width:320px) and (max-width: 374px) {
@@ -38,7 +38,7 @@ section {
     }
 
     section {
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
 }
 
@@ -49,7 +49,7 @@ section {
     }
 
     section {
-        margin-bottom: 100px;
+        padding-bottom: 100px;
     }
 
 }
