@@ -89,12 +89,26 @@
 .open-menu-btn {
     width: 34px;
     height:34px;
+
+
+
+}
+
+@media (min-width:768px){
+    .open-menu-btn{
+        width: 40px;
+        height: 40px;
+    }
+
+     .open-menu-svg{
+        width: 40px;
+        height: 40px;
+    }
 }
 
 
-
 .open-menu-btn {
-    padding: 0;
+  padding: 0;
     line-height: 0;
   background-color: transparent;
     cursor: pointer;
