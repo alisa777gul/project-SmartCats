@@ -14,6 +14,7 @@ body {
 section {
     margin-top: 0;
     padding-bottom: 60px;
+    
 }
 
 @media (min-width:320px) and (max-width: 374px) {
