@@ -20,6 +20,10 @@
     width: 100%;
 }
 
+.network-item{
+    padding: 0;
+}
+
 .mob-network-link{
     height: 100%;
     width: 100%;
