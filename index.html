@@ -22,12 +22,12 @@
     <nav class="navigation">
       <a class="logo-web" href="./index.html">watchcharm</a>
       <ul class="link-nav">
-        <li><a class="link link-studio" href="#home">Home</a></li>
-        <li><a class="link" href="#about-us">About us</a></li>
-        <li><a class="link" href="#catalog">Catalog</a></li>
-        <li><a class="link" href="#sale">Sale</a></li>
-        <li><a class="link" href="#reviews">Reviews</a></li>
-        <li><a class="link" href="#contact">Contact Us</a></li>
+        <li><a class="link link-studio alink" href="#home">Home</a></li>
+        <li><a class="link alink" href="#about-us">About us</a></li>
+        <li><a class="link alink" href="#catalog">Catalog</a></li>
+        <li><a class="link alink" href="#sale">Sale</a></li>
+        <li><a class="link alink" href="#reviews">Reviews</a></li>
+        <li><a class="link alink" href="#contact">Contact Us</a></li>
       </ul>
     </nav>
     <div class="network">
@@ -70,12 +70,14 @@
     </button>
     <nav>
       <ul class="mob-link-nav">
-        <li><a class="mob-link mob-link-studio" href="#header">Home</a></li>
-        <li><a class="mob-link" href="#about-us">About us</a></li>
-        <li><a class="mob-link" href="#catalog">Catalog</a></li>
-        <li><a class="mob-link" href="#sale">Sale</a></li>
-        <li><a class="mob-link" href="#reviews">Reviews</a></li>
-        <li><a class="mob-link" href="#contact">Contact Us</a></li>
+        <li>
+          <a class="mob-link mob-link-studio link" href="#header">Home</a>
+        </li>
+        <li><a class="mob-link alink" href="#about-us">About us</a></li>
+        <li><a class="mob-link alink" href="#catalog">Catalog</a></li>
+        <li><a class="mob-link alink" href="#sale">Sale</a></li>
+        <li><a class="mob-link alink" href="#reviews">Reviews</a></li>
+        <li><a class="mob-link alink" href="#contact">Contact Us</a></li>
       </ul>
     </nav>
     <div class="mob-network">
@@ -120,7 +122,7 @@
         </p>
       </div>
       <div class="hero__actions">
-        <a href="#footer" class="hero__scroll">Scroll down</a>
+        <a href="#footer" class="hero__scroll alink">Scroll down</a>
         <div class="hero__people-images">
           <img
             src="data:image/png;base64,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"
@@ -181,7 +183,7 @@
           personality and style. So why settle for anything less than the best?
         </p>
 
-        <a class="open-btn open-link" href="#catalog">View catalog</a>
+        <a class="open-btn open-link alink" href="#catalog">View catalog</a>
       </div>
       <div class="watch-img">
         <picture>
@@ -282,7 +284,7 @@
       moment unique. Time is your style, and we reveal it.
     </p>
 
-    <a href="#contact" class="advertisement-btn">Contact Us</a>
+    <a href="#contact" class="advertisement-btn alink">Contact Us</a>
   </div>
 </section>
 
@@ -572,22 +574,22 @@
     <div class="footer-linc-box">
       <ul class="footer-list">
         <li class="footer-list-item">
-          <a href="#header" class="footer-list-linc">Home</a>
+          <a href="#header" class="footer-list-linc alink">Home</a>
         </li>
         <li class="footer-list-item">
-          <a href="#about-us" class="footer-list-linc">About Us</a>
+          <a href="#about-us" class="footer-list-linc alink">About Us</a>
         </li>
         <li class="footer-list-item">
-          <a href="#catalog" class="footer-list-linc">Catalog</a>
+          <a href="#catalog" class="footer-list-linc alink">Catalog</a>
         </li>
         <li class="footer-list-item">
-          <a href="#sale" class="footer-list-linc">Sale</a>
+          <a href="#sale" class="footer-list-linc alink">Sale</a>
         </li>
         <li class="footer-list-item">
-          <a href="#reviews" class="footer-list-linc">Reviews</a>
+          <a href="#reviews" class="footer-list-linc alink">Reviews</a>
         </li>
         <li class="footer-list-item">
-          <a href="#contact" class="footer-list-linc">Contact Us</a>
+          <a href="#contact" class="footer-list-linc alink">Contact Us</a>
         </li>
       </ul>
       <address class="footer-addres">
@@ -609,6 +611,7 @@
 </footer>
 
 
+    
     
   </body>
 </html>
