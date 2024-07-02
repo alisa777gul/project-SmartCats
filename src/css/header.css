@@ -235,8 +235,8 @@ border: none;
     top: 0;
     width: 200px;
     height: 100%;
-    left: 100%;
-    transform: translateX(-100%);
+    right: 0;
+    transform: translateX(100%);
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
@@ -248,6 +248,14 @@ border: none;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: 0.5s;
+}
+
+.is-open {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
 }
 
 /* Стили для мобильного меню на устройствах с высоким разрешением */
@@ -291,11 +299,7 @@ border: none;
 }
 
 
-.is-open {
-    visibility: visible;
-    opacity: 1;
-    pointer-events: auto;
-}
+
 
 .close-menu-btn {
     display: flex;
