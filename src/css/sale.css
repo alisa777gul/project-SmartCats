@@ -31,6 +31,18 @@
 .sale-all-wtch {
   display: flex;
 }
+.sale-min-wtch-img {
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.sale-big-wtch-box {
+  flex-grow: 1;
+}
+
+.sale-big-wtch-img {
+  object-fit: cover;
+}
 
 .sale-min-wtch-list {
   display: flex;
@@ -479,41 +491,22 @@
     min-width: 530px;
     height: 558px;
   }
-  .sale-all-wtch {
+  /* .sale-all-wtch {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
   }
 
   .sale-min-wtch-list {
     list-style-type: none;
-    padding: 0;
-    margin: 0 20px;
+
     display: flex;
     flex-direction: column;
-  }
+  } */
 
   .sale-min-wtch-item {
-    margin-bottom: 10px;
   }
 
-  .sale-min-wtch-img {
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-    object-fit: cover;
-  }
-
-  .sale-big-wtch-box {
-    flex-grow: 1;
-  }
-
-  .sale-big-wtch-img {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-  }
   /* sale-card-stat-list */
   /* sale-card-stat-item */
 }
