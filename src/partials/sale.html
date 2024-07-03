@@ -11,11 +11,11 @@
                 ./img/sale/small-wtch-1.png    1x,
                 ./img/sale/small-wtch-1@2x.png 2x
               "
-              src="./sale.img/small-wtch-1.png"
-              alt="small-wtch"
+              src="./img/sale/small-wtch-1.png"
+              alt="small-wtch-1"
+              onclick="showImage('./img/sale/small-wtch-1.png', './img/sale/small-wtch-1@2x.png')"
             />
           </li>
-
           <li class="sale-min-wtch-item">
             <img
               class="sale-min-wtch-img"
@@ -23,11 +23,11 @@
                 ./img/sale/small-wtch-2.png    1x,
                 ./img/sale/small-wtch-2@2x.png 2x
               "
-              src="./sale.img/small-wtch-2.png"
-              alt="small-wtch"
+              src="./img/sale/small-wtch-2.png"
+              alt="small-wtch-2"
+              onclick="showImage('./img/sale/small-wtch-2.png', './img/sale/small-wtch-2@2x.png')"
             />
           </li>
-
           <li class="sale-min-wtch-item">
             <img
               class="sale-min-wtch-img"
@@ -35,11 +35,11 @@
                 ./img/sale/small-wtch-3.png    1x,
                 ./img/sale/small-wtch-3@2x.png 2x
               "
-              src="./sale.img/small-wtch-3.png"
-              alt="small-wtch"
+              src="./img/sale/small-wtch-3.png"
+              alt="small-wtch-3"
+              onclick="showImage('./img/sale/small-wtch-3.png', './img/sale/small-wtch-3@2x.png')"
             />
           </li>
-
           <li class="sale-min-wtch-item">
             <img
               class="sale-min-wtch-img"
@@ -48,15 +48,20 @@
                 ./img/sale/small-wtch-4@2x.png 2x
               "
               src="./img/sale/small-wtch-4.png"
-              alt="small-wtch"
+              alt="small-wtch-4"
+              onclick="showImage('./img/sale/small-wtch-4.png', './img/sale/small-wtch-4@2x.png')"
             />
           </li>
         </ul>
         <div class="sale-big-wtch-box">
           <img
+            id="mainImage"
             class="sale-big-wtch-img"
-            srcset="./img/sale/big-wtch.png 1x, ./img/sale/big-wtch@2x.png 2x"
-            src="./img/sale/big-wtch.png"
+            srcset="
+              ./img/sale/small-wtch-1.png    1x,
+              ./img/sale/small-wtch-1@2x.png 2x
+            "
+            src="./img/sale/small-wtch-1.png"
             alt="big-wtch"
           />
         </div>
