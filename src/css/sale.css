@@ -14,6 +14,11 @@
   padding: 48px 28px;
 }
 
+ 
+.sale-big-wtch-img .zoom-in{
+
+}
+
 .title-sale {
   font-weight: 600;
   font-size: 32px;
@@ -310,6 +315,8 @@
     flex-direction: row;
   }
 
+
+
   .title-sale {
     margin-bottom: 24px;
   }
@@ -364,6 +371,11 @@
 /* ======================================= tab ============== */
 
 @media screen and (min-width: 768px) {
+
+  .sale-big-wtch-img.zoom-in {
+     width: 328px;
+     height: 398px;
+    }
   .sale-container {
     max-width: 768px;
   }
@@ -509,4 +521,10 @@
 
   /* sale-card-stat-list */
   /* sale-card-stat-item */
+}
+
+
+.sale-big-wtch-img .zoom-in {
+  width: 100%;
+  height: 100%;
 }
