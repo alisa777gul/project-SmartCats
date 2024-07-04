@@ -1,9 +1,7 @@
 
-        
- function showImage(event) {
+    function showImage(clickedImage) {
         let mainImage = document.getElementById('mainImage');
-        let clickedImage = event.target;
-
+        
         mainImage.src = clickedImage.src;
         mainImage.srcset = clickedImage.srcset;
         mainImage.alt = clickedImage.alt;
