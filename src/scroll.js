@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const navLinks = document.querySelectorAll('.alink');
- const navsLinks = document.querySelectorAll('.link');
+    const navsLinks = document.querySelectorAll('.link');
+    const mobMenu = document.querySelector(".mob-menu"); // Переместил объявление сюда
 
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
@@ -18,6 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     top: offsetTop,
                     behavior: 'smooth' // Плавная анимация прокрутки
                 });
+
+                // mobMenu.classList.remove("is-open");
             }
         });
     });
@@ -38,8 +41,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     top: offsetTop,
                     behavior: 'smooth' // Плавная анимация прокрутки
                 });
+
+                // mobMenu.classList.remove("is-open");
             }
         });
     });
-
 });
